@@ -1,6 +1,6 @@
 // teste de alteração
 //variáveis da bolinha
-let xBolinha = 100; 
+let xBolinha = 120; 
 let yBolinha = 30; 
 let dBolinha = 50; 
 
