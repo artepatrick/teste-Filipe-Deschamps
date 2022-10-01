@@ -15,6 +15,7 @@ let larguraRaqueteP1 = 10;
 let alturaRaqueteP1 = 90; 
 let meioCompP1 = alturaRaqueteP1 / 2;
 
+// teste alteração simultânea
 //variáveis da raquete do oponente
 let xRaqueteP2 = 550; 
 let yRaqueteP2 = 150; 
