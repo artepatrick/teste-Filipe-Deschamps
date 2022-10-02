@@ -1,0 +1,23 @@
+body{
+    background: #eeeeee
+}
+
+#banner1 {
+    width: 100%;
+}
+
+h1{
+    text-align:center
+}
+
+p{
+    text-align:center
+}
+
+#missao {
+    font-size: 25px
+}
+
+em strong{
+    color: #d12626
+}
