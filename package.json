@@ -1,0 +1,17 @@
+{
+  "name": "pasta-git",
+  "version": "1.0.0",
+  "main": "sketch.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "next": "^12.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
