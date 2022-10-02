@@ -23,7 +23,7 @@ let yRaqueteP2 = 150;
 let larguraRaqueteP2 = 10; 
 let alturaRaqueteP2 = 90; 
 let meioCompP2 = alturaRaqueteP2 / 2;
-let velocidadeyRaqueteP2 = 3; 
+let velocidadeyRaqueteP2 = 4; 
 
 //Determinar Vencedor
 let meusPontos = 0;
