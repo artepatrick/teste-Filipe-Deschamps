@@ -5,3 +5,7 @@ html, body {
   canvas {
     display: block;
   }
+
+  p{
+    font-syze: 25px
+  }
