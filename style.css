@@ -1,6 +1,4 @@
 html, body {
-    margin: 5;
-    padding: 5;
     align-items: center;
   }
 
@@ -9,8 +7,6 @@ html, body {
   }
 
   p{
-    padding-top: 5px;
-    padding-bottom: 5px;
     text-align:center;
     font-size: 25px
   }
