@@ -1,12 +1,13 @@
 html, body {
     margin: 0;
     padding: 0;
+    align-items: center;
   }
   canvas {
     display: block;
   }
 
   p{
-    font-syze: 25px
-    text-align:center
+    font-size: 25px
+    text-align: center
   }
