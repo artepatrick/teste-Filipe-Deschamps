@@ -6,8 +6,20 @@ body{
     width: 100%;
 }
 
+div{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 h1{
     text-align:center
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
 }
 
 p{
@@ -21,3 +33,21 @@ p{
 em strong{
     color: #d12626
 }
+
+.itens {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.beneficios{
+    background-color: azure;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+
+.imagem2{
+    display: inline-block;
+    width: 50%;
+}
+
