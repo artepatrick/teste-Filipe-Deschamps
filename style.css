@@ -8,6 +8,6 @@ html, body {
   }
 
   p{
+    text-align:center;
     font-size: 25px
-    text-align: center
   }
