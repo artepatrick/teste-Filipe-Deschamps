@@ -4,15 +4,13 @@ html, body {
     align-items: center;
   }
 
-  script{
-    align-items: center;
-    align-content: center;
-  }
   canvas {
     display: block;
   }
 
   p{
+    padding-top: 50px;
+    padding-bottom: 50px;
     text-align:center;
     font-size: 25px
   }
