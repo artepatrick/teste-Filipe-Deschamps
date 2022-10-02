@@ -5,8 +5,8 @@ let yBolinha = 30;
 let dBolinha = 50; 
 
 //velocidade da bolinha
-let velocidadexBolinha = 12; 
-let velocidadeyBolinha = 12;
+let velocidadexBolinha = 5; 
+let velocidadeyBolinha = 5;
 let raio = dBolinha/2; 
 
 //variáveis da raquete P1
