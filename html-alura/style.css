@@ -1,25 +1,27 @@
 body{
-    background: #eeeeee
+    
 }
 
 #banner1 {
     width: 100%;
 }
 
-div{
-    padding-top: 20px;
-    padding-bottom: 20px;
+.titulo-principal{
     padding-left: 20px;
-    padding-right: 20px;
 }
-h1{
-    text-align:center
+
+.titulo-centralizado{
+    text-align:center;
 }
+
+
 
 ul {
     display: inline-block;
     vertical-align: top;
-    width: 50%;
+    width: 20%;
+    margin-right: 20%;
+    background-color: #d12626;
 }
 
 p{
@@ -40,14 +42,16 @@ em strong{
 }
 
 .beneficios{
-    background-color: azure;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    display: inline-block;
+    background-color: #ffffff;
+    padding: 20px;
 }
-
+.principal{
+    background-color: gray;
+    padding: 30px    
+}
 .imagem2{
     display: inline-block;
     width: 50%;
+    padding: 30px;
 }
 
