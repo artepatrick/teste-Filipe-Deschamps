@@ -45,7 +45,7 @@ function draw() {
   verificaColisaoComRaqueteP1();
   verificaColisaoComRaqueteP2();
   movimentaRaqueteP22();
-  //vimentaRaqueteOponente(); 
+  //movimentaRaqueteOponente(); 
   incluiPlacar(meusPontos, 150); 
   incluiPlacar(pontosP2, 450);
 }
