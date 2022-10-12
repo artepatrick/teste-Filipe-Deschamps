@@ -98,25 +98,54 @@ footer a{
     text-decoration: none;
 }
 
+/* Desta parte em diante as classes são referentes à página "contato.html" */
+
 main{
     width: 940px;
     margin: 0 auto;
 }
 
 form{
-    display: block;
     margin: 40px 0;
-    padding: 10px 10px;
 }
 
-form label{
+form label, form p{
     display: block;
     font-size: 20px;
-    margin: 0 0 0 10px;
+    margin: 5px 0;
 }
 
-form input{
+.input-padrao{
     display: block;
-    margin: 0 0 10px 0;
+    margin: 0 0 20px 0;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.button{
+    background-color: #e8def3;
+    box-shadow: 1px 1px 5px;
+    border: inset 1px transparent;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 8px;
+}
+
+.button:hover{
+    background-color: #9e9e9e;
+    box-shadow: 2px 2px 5px;
+    border: inset solid 1px #ffffff;
+}
+
+.button:active{
+    background-color: #ffffff;
+    box-shadow: none;
+    border: solid 1px #000000;
 }
 
