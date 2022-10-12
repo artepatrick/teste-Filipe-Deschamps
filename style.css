@@ -1,5 +1,6 @@
-html, body {
-    width: 950px;
+html,
+body {
+  width: 950px;
   margin: 50px auto;
   align-items: center;
 }
@@ -8,48 +9,49 @@ canvas {
   display: block;
 }
 
-p{
-  text-align:center;
+p {
+  text-align: center;
   font-size: 25px
 }
 
-.link-barbearia{
+.link-barbearia {
   font-family: 'Righteous', cursive;
   text-decoration: none;
 }
 
-.script{
+.script {
   margin: 20px auto;
 }
 
-header{
+header {
   background: #bbbbbb;
   padding-top: 20px 0;
 }
 
-body h1, h2{
+body h1,
+h2 {
   font-family: 'Montserrat', sans-serif;
 }
 
-nav{
+nav {
   position: absolute;
   top: 120px;
   right: 0;
 }
 
-.caixa{
+.caixa {
   position: relative;
   width: 940px;
   margin: 0 auto;
   font-family: 'Montserrat', sans-serif;
 }
 
-nav li{
+nav li {
   display: inline;
   margin: 0 0 0 15px;
 }
 
-nav a{
+nav a {
   text-transform: uppercase;
   font-weight: bold;
   color: #000000;
@@ -57,7 +59,7 @@ nav a{
   text-decoration: none;
 }
 
-nav a:hover{
+nav a:hover {
   color: chartreuse;
   text-decoration: underline;
 }
