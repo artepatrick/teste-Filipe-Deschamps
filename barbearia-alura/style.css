@@ -37,7 +37,6 @@ nav a{
     color: #000000;
     font-size: 22px;
     text-decoration: none;
-    transition: 500ms all;
 }
 
 nav a:hover{
