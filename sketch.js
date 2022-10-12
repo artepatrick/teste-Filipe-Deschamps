@@ -1,7 +1,7 @@
 // teste de alteração
 //variáveis da bolinha
-let xBolinha = 110; 
-let yBolinha = 30; 
+let xBolinha = 90; 
+let yBolinha = 60; 
 let dBolinha = 50; 
 
 //velocidade da bolinha
@@ -45,9 +45,9 @@ function draw() {
   verificaColisaoComRaqueteP1();
   verificaColisaoComRaqueteP2();
   movimentaRaqueteP22();
-  //movimentaRaqueteOponente(); 
+  movimentaRaqueteOponente(); 
   incluiPlacar(meusPontos, 150); 
-  incluiPlacar(pontosP2, 450);
+  incluiPlacar(pontosP2, 800);
 }
 
 function mostraBolinha(){
@@ -80,12 +80,19 @@ function VerificaColisãoBorda(){
 }
 
 function movimentaRaqueteP1(){
-  if(keyIsDown(UP_ARROW)){
-    yRaqueteP1 -= 5;
+  
+  if (keyIsPressed === true) {
+      if(keyIsDown(UP_ARROW)){
+        yRaqueteP1 -= 5;
+      }
+      if(keyIsDown(DOWN_ARROW)){
+        yRaqueteP1 += 5;
+      }  
+}else{
+  if(mouseIsPressed === true){
+    yRaqueteP1=mouseY
   }
-  if(keyIsDown(DOWN_ARROW)){
-    yRaqueteP1 += 5;
-  }  
+}
 }
 
 function verificaColisaoComRaqueteP1 (){
@@ -102,7 +109,7 @@ function verificaColisaoComRaqueteP2 (){
 
 
 function movimentaRaqueteOponente(){
-  velocidadeRaqueteP2 = yBolinha - yRaqueteP2 - alturaRaqueteP1 / 2; 
+  velocidadeRaqueteP2 = yBolinha - yRaqueteP2 - alturaRaqueteP1 / 3; 
   yRaqueteP2 += velocidadeRaqueteP2; 
 }
 
@@ -114,7 +121,6 @@ function incluiPlacar(quem,x){
   rect(x - 20,10,40,20);
   fill(255);
   text(quem,x,26); 
-
 } 
 
 function movimentaRaqueteP22(){
