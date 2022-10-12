@@ -1,3 +1,4 @@
+
 header{
     background: #bbbbbb;
     padding-top: 20px 0;
@@ -7,6 +8,7 @@ header{
     position: relative;
     width: 940px;
     margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .principal, .beneficios{
@@ -14,7 +16,9 @@ header{
     width: 950px;
 }
 
-
+body h1, h2{
+    font-family: 'Montserrat', sans-serif;
+}
 
 nav{
     position: absolute;
@@ -197,9 +201,21 @@ td, th{
     margin: 50px auto;
 }
 
+.itens:before{
+    content: "🚩 ";
+}
+.titulo2:before{
+    content: "[ ";
+}
+
+.titulo2:after {
+    content: " ]";
+}
+
 .titulo2{
     text-align: center;
     font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
     margin: 1em 0;
 }
 
@@ -209,4 +225,29 @@ td, th{
 
 .imagembeneficios{
     width: 60%;
+}
+
+.itens{
+    line-height: 1.5;
+}
+
+.itens:nth-child(2n){
+    /* pega os itens pares da lista e coloca em negrito! */
+    font-weight: bold;
+}
+
+.mapa{
+    width: 950px;
+    margin: 50px auto;
+}
+
+/* tornando o site responsivo */
+
+@media screen and (max-width:990px) {
+    body{
+        padding: 20px;
+    }
+    .caixa {
+        width: auto;
+    }
 }
