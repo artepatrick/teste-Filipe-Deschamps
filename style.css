@@ -1,4 +1,6 @@
 html, body {
+    width: 950px;
+    margin: 50px auto;
     align-items: center;
   }
 
@@ -9,4 +11,9 @@ html, body {
   p{
     text-align:center;
     font-size: 25px
+  }
+
+  .link-barbearia{
+    font-family: 'Righteous', cursive;
+    text-decoration: none;
   }
