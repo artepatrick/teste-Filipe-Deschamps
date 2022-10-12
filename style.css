@@ -17,3 +17,7 @@ html, body {
     font-family: 'Righteous', cursive;
     text-decoration: none;
   }
+
+  .script{
+    margin: 20px auto;
+  }

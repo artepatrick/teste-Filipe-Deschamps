@@ -30,7 +30,7 @@ let meusPontos = 0;
 let pontosP2 = 0;
 
 function setup() {
-  createCanvas(600, 400);
+  createCanvas(960, 400);
 }
 
 function draw() {
