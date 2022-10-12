@@ -9,6 +9,13 @@ header{
     margin: 0 auto;
 }
 
+.principal, .beneficios{
+    margin: 50px auto;
+    width: 950px;
+}
+
+
+
 nav{
     position: absolute;
     top: 120px;
@@ -26,6 +33,7 @@ nav a{
     color: #000000;
     font-size: 22px;
     text-decoration: none;
+    transition: 500ms all;
 }
 
 nav a:hover{
@@ -109,7 +117,7 @@ form{
     margin: 40px 0;
 }
 
-form label, form p{
+form label, form legend{
     display: block;
     font-size: 20px;
     margin: 5px 0;
@@ -124,28 +132,81 @@ form label, form p{
     width: 50%;
 }
 
+.radio-margin{
+    margin-right: 5px;
+}
+
 .checkbox{
     margin: 20px 0;
 }
 
+select{
+    margin: 5px 0;
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
 .button{
-    background-color: #e8def3;
+    background-color: #230741;
+    color: white;
     box-shadow: 1px 1px 5px;
     border: inset 1px transparent;
     border-radius: 5px;
-    margin: 10px 0;
+    margin: 20px 0;
     padding: 8px;
+    width: 40%;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 1s all;
 }
 
 .button:hover{
     background-color: #9e9e9e;
     box-shadow: 2px 2px 5px;
     border: inset solid 1px #ffffff;
+    cursor: pointer;
+    transform: scale(1.2);
 }
 
 .button:active{
-    background-color: #ffffff;
+    background-color: #e787f0;
     box-shadow: none;
     border: solid 1px #000000;
 }
 
+table{
+    margin: 20px 0 40px;
+}
+
+thead{
+    background-color: #555555;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+td, th{
+    border: solid #cccccc 1px;
+    padding: 8px 15px;
+}
+
+/* css da página inicial */
+
+.box-sobre, .beneficios{
+    width: 950px;
+    margin: 50px auto;
+}
+
+.titulo2{
+    text-align: center;
+    font-size: 2em;
+    margin: 1em 0;
+}
+
+.box-sobre p{
+    margin: 0 0 1em;
+}
+
+.imagembeneficios{
+    width: 60%;
+}

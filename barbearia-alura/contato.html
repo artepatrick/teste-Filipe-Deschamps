@@ -9,7 +9,7 @@
 
     <header>
         <div class="caixa">
-            <h1><img src="img/logo.png"></h1>	
+            <h1><img src="img/logo.png" alt="Homem com barba e bigote usando óculos, que é a logo da Barbearia Alura"></h1>	
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -22,34 +22,64 @@
 
     <main>
         <form>
-            <label for="nomesobrenome">Nome e sobrenome</label>
-            <input type="text" id="nomesobrenome">
+            <label for="nomesobrenome" >Nome e sobrenome</label>
+            <input type="text" id="nomesobrenome" class="input-padrao" required placeholder="seu nome">
     
             <label for="email">Email</label>
-            <input type="text" id="email" class="input-padrao">
+            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com.br">
     
             <label for="telefone">Telefone</label>
-            <input type="text" id="telefone" class="input-padrao">
+            <input type="tel" id="telefone" class="input-padrao" placeholder="(31)9999-9999">
             
             <label for="areadetexto">Descrição</label>
-            <textarea name="" id="areadetexto" cols="30" rows="10" class="input-padrao">Digite aqui seu texto...</textarea>
+            <textarea name="" id="areadetexto" cols="30" rows="10" class="input-padrao" placeholder="Escreva mais detalhes aqui"></textarea>
 
-            <div>
-                <p>Como prefere nosso contato?</p>
-                <label><input  type="radio" name="contato" id="radio-email" value="email">Tipo de Contato</label>
-                <label><input  type="radio" name="contato" id="radio-telefone" value="telefone">Telefone</label>
-                <label class="checkbox"><input  type="radio" name="contato" id="radio-wjatsapp" value="whatsapp">Telefone</label>
-                
-            </div>
+            <fieldset>
+                <legend>Como prefere nosso contato?</legend>
+                <label class="lable-radio"><input type="radio" name="contato" id="radio-email" value="email" class="radio-margin">Tipo de Contato</label>
+                <label class="lable-radio"><input type="radio" name="contato" id="radio-telefone" value="telefone" class="radio-margin">Telefone</label>
+                <label class="lable-radio"><input  type="radio" name="contato" id="radio-whatsapp" value="whatsapp" class="radio-margin" checked>Whatsapp</label>
+                <label class="checkbox"><input type="checkbox"> Gostaria de receber nossas novidades por e-mail?</label>
+            </fieldset>
 
-            <label><input type="checkbox"> Gostaria de receber nossas novidades por e-mail?</label>
+            <fieldset>
+                <legend>Qual horário prefere ser atendido?</legend>
+                <select name="dropbox1" id="dropbox1">
+                    <option value="Manhã">Manhã</option>
+                    <option value="Tarde">Tarde</option>
+                    <option value="Noite">Noite</option>
+                </select>
+            </fieldset>
 
             <input class="button", type="submit" value="Enviar formulário">
         </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>dia</th>
+                    <th>Horário</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Segunda</td>
+                    <td>8h às 22h</td>
+                </tr>
+                <tr>
+                    <td>Quarta</td>
+                    <td>8h às 22h</td>
+                </tr>
+                <tr>
+                    <td>Sexta</td>
+                    <td>8h às 23h</td>
+                </tr>
+            </tbody>
+        </table>
     </main>
 
     <footer>
-        <img src="img/logo-branco.png">
+        <img src="img/logo-branco.png" alt="Homem com barba e bigote usando óculos, que é a logo da Barbearia Alura">
         <p class="copyright">&#169; Created by <a href="http://www.noseducamosjuntos.com">Patrick Bonnereau</a></p>
     </footer>
 
