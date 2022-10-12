@@ -10,7 +10,7 @@ let velocidadeyBolinha = 5;
 let raio = dBolinha/2; 
 
 //variáveis da raquete P1
-let xRaqueteP1 = 60; 
+let xRaqueteP1 = 30; 
 let yRaqueteP1 = 150; 
 let larguraRaqueteP1 = 10; 
 let alturaRaqueteP1 = 90; 
@@ -18,7 +18,7 @@ let meioCompP1 = alturaRaqueteP1 / 2;
 
 // teste alteração simultânea
 //variáveis da raquete do oponente
-let xRaqueteP2 = 550; 
+let xRaqueteP2 = 920; 
 let yRaqueteP2 = 150; 
 let larguraRaqueteP2 = 10; 
 let alturaRaqueteP2 = 90; 
@@ -30,7 +30,7 @@ let meusPontos = 0;
 let pontosP2 = 0;
 
 function setup() {
-  createCanvas(960, 400);
+  createCanvas(950, 400);
 }
 
 function draw() {
