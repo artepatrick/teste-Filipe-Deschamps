@@ -3,6 +3,11 @@ body {
   align-items: center;
 }
 
+.script {
+  width: 950px;
+  margin: 20px auto;
+}
+
 canvas {
   display: block;
 }
