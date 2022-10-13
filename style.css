@@ -6,6 +6,7 @@ body {
 .jogo {
   width: 950px;
   margin: 20px auto;
+  background-color: beige;
 }
 
 canvas {

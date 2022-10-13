@@ -132,10 +132,12 @@ form legend {
 .input-padrao {
     display: block;
     margin: 0 0 20px 0;
-    border: 1px solid;
+    border: none;
     border-radius: 5px;
-    padding: 10px 25px;
+    font-size: 24px;
+    padding: 24px;
     width: 50%;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
 }
 
 .radio-margin {
