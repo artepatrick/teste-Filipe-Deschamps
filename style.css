@@ -67,3 +67,8 @@ nav a:hover {
   color: chartreuse;
   text-decoration: underline;
 }
+
+.lottie {
+  max-width: 100%;
+  margin: 0 auto;
+}
